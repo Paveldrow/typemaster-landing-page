@@ -37,6 +37,15 @@ html {
   color: #7b8bad;
 }
 
+@media (min-width: 1210px) {
+  .page-body {
+    background: url('../img/background-element.svg'), url('../img/background-element-left.svg');
+    background-repeat: no-repeat;
+    background-size: 135px 240px;
+    background-position:  right 0 top 196px, 0 950px;
+  }
+}
+
 .page-header {
   display: flex;
   justify-content: space-between;
